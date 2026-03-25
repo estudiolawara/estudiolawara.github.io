@@ -1,0 +1,1 @@
+import{g as r}from"./index.DDlvirwQ.js";const o=document.querySelector("[data-hero]");if(o){const e=sessionStorage.getItem("lawara-intro-seen-before"),t=e?.5:2.8;e||sessionStorage.setItem("lawara-intro-seen-before","1");const a=o.querySelectorAll("[data-animate]");r.fromTo(a,{opacity:0,y:40},{opacity:1,y:0,duration:1,ease:"power3.out",stagger:.2,delay:t+.4})}
